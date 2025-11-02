@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma boutique crochet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bienvenue dans ma boutique crochet </h1>
+  <p>Voici mes produits :</p>
+  <ul>
+    <li>écharpe – 35€</li>
+    <li>chouchou – 7€</li>
+    <li>chouette – 10€</li>
+    <li>création sur commande -prix variable</li>
+  </ul>
+  <button onclick="alerteProduit()">Clique ici</button>
+  <script src="script.js"></script>
+</body>
+</html>
+<button onclick="alert('Contactez-moi par message pour commander votre produit !')">Commander</button>
